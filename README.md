@@ -1,0 +1,2 @@
+# SmartBin.AI
+Mini Project
