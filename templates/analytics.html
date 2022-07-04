@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>SmartBin.AI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -12,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="icon">
   <link href="{{ url_for('static', filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon">
   <link href="{{ url_for('static', filename='aos/aos.css') }}" rel="stylesheet">
@@ -127,7 +125,7 @@
             
           </div>
           <center><br><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-            <a href="https://blynk.cloud/dashboard/68025/products/edit/108512/dashboard" style="color:aliceblue">Live Analytics</a>
+            <a href="http://127.0.0.1:5000/analytics#Hi" style="color:aliceblue">Live Analytics</a>
           </button></center>
           
           <section class="text-gray-600 body-font" style="margin: 0%;">
@@ -183,10 +181,13 @@
               </div>
             </div>
           </section>  
-    </main> 
-  
-
-
+          <div id="Hi" style="padding:4%"></div>
+          <h1 style="color:azure;text-align:center;padding: 3%;" >See live Analytics</h1>
+            <div class="text-center" style="align-items:center" >
+             <a href="https://blynk.cloud/dashboard/68515/global/filter/366041/organization/68515/devices/257590/dashboard"><img src="/static/img/Capture.png" class="rounded" alt="Click on Image to go to full view" width="100%" ></a> 
+             <h5 style="color:aliceblue ;padding:1%">Click on the image to show full dashboard</h5>
+            </div>
+    </main>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
